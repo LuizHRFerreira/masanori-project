@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;700&family=Courier+Prime:wght@400;700&display=swap');
+
+/*
+  Identidade visual inspirada em "The Car" (Arctic Monkeys, 2022):
+  paleta oliva/creme/areia, tipografia grotesca pesada em caixa alta,
+  tracking apertado e grão de filme por cima de tudo.
+*/
+:root {
+  --olive: #4a5343;
+  --olive-deep: #363d31;
+  --cream: #eae5d9;
+  --cream-deep: #e0dacb;
+  --sand: #b8a28e;
+  --sand-soft: #d2c6b4;
+  --camry: #dce0e5;
+  --red: #a83232;
+  --red-deep: #8e2a2a;
+  --ink: #2c3128;
+  --muted: #6e7466;
+
+  --font-display: 'Archivo Black', 'Arial Black', Impact, sans-serif;
+  --font-body: 'Archivo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-mono: 'Courier Prime', 'Courier New', monospace;
+}

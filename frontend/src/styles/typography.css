@@ -1,0 +1,54 @@
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 14px;
+  color: var(--red);
+  font: 11px/1.4 var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+.eyebrow::before {
+  content: '';
+  width: 3px;
+  height: 14px;
+  background: var(--red);
+  flex: 0 0 auto;
+}
+
+.message {
+  color: var(--muted);
+  padding: 26px 0;
+  font: 13px var(--font-mono);
+  letter-spacing: 0.04em;
+}
+
+.message.error {
+  color: var(--red);
+}
+
+/* selo Disponível / Alugado */
+.status {
+  flex: 0 0 auto;
+  padding: 5px 9px;
+  border: 1px solid var(--olive);
+  color: var(--olive);
+  font: 700 10px/1 var(--font-body);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.status.rented {
+  border-color: var(--red);
+  background: var(--red);
+  color: var(--cream);
+}
+
+/* poste vermelho, referência aos postes do estacionamento da capa */
+.pole {
+  width: 3px;
+  height: 34px;
+  background: var(--red);
+  flex: 0 0 auto;
+}

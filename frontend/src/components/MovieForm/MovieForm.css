@@ -1,0 +1,59 @@
+.movie-form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.full {
+  grid-column: 1 / -1;
+}
+
+.modal-heading {
+  margin-bottom: 8px;
+}
+
+.availability {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 4px;
+  padding: 14px;
+  border: 1px solid var(--sand);
+  background: var(--cream-deep);
+  cursor: pointer;
+}
+
+.availability input {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  accent-color: var(--olive);
+  flex: 0 0 auto;
+}
+
+.availability-label {
+  display: grid;
+  gap: 2px;
+}
+
+.availability-label strong {
+  color: var(--olive);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.availability-label small {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.modal-actions {
+  margin-top: 8px;
+}
+
+@media (max-width: 600px) {
+  .movie-form {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,58 @@
+.btn {
+  min-height: 44px;
+  padding: 0 20px;
+  border: 1px solid var(--olive);
+  background: var(--olive);
+  color: var(--cream);
+  font: 700 12px/1 var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  transition:
+    background-color 0.15s,
+    color 0.15s,
+    border-color 0.15s;
+}
+
+.btn:hover {
+  background: var(--olive-deep);
+  border-color: var(--olive-deep);
+}
+
+.btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.btn.secondary {
+  background: transparent;
+  color: var(--olive);
+  border-color: var(--sand);
+}
+
+.btn.secondary:hover {
+  background: var(--cream-deep);
+  border-color: var(--olive);
+}
+
+.btn.danger {
+  background: transparent;
+  color: var(--red);
+  border-color: var(--red);
+}
+
+.btn.danger:hover,
+.btn.danger.solid {
+  background: var(--red);
+  color: var(--cream);
+}
+
+.btn.danger.solid:hover {
+  background: var(--red-deep);
+  border-color: var(--red-deep);
+}
+
+.btn.small {
+  min-height: 32px;
+  padding: 0 12px;
+  font-size: 11px;
+}

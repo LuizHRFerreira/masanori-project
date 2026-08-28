@@ -1,0 +1,21 @@
+.populate-modal {
+  width: min(100%, 520px);
+  display: grid;
+  gap: 18px;
+}
+
+.warning {
+  margin: 0;
+  padding: 12px 14px;
+  border-left: 3px solid var(--red);
+  background: rgb(168 50 50 / 8%);
+  color: var(--red);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.modal-error {
+  margin: 0;
+  color: var(--red);
+  font-size: 13px;
+}
