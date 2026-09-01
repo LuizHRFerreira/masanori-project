@@ -1,9 +1,3 @@
-"""
-Configuração do app "tasks".
-
-O Django chama o método ready() uma vez, quando o servidor sobe. A gente
-aproveita esse momento para garantir que o índice do MongoDB existe.
-"""
 from django.apps import AppConfig
 
 
